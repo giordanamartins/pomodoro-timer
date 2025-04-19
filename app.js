@@ -119,7 +119,7 @@ const restingTimer = () => {
         isPaused = false;
     }
     else{
-        alert("You must complete a session to start the resting timer.")
+        alert("Complete a session before you can rest!")
     }
 }
 
