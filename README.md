@@ -39,7 +39,7 @@ Este projeto é um cronômetro pomodoro com as seguintes funcionalidades:
 
 ---
 
-## 🧠 Funcionalidades
+## ⚙️ Funcionalidades
 
 | Botão         | Função                                                                 |
 |---------------|------------------------------------------------------------------------|
