@@ -56,4 +56,11 @@ Este projeto foi desenvolvido com base no tutorial do blog da [Codedex.io](https
 
 ---
 
+## 🚀 Como usar
+
+Você pode acessar o projeto online através deste link:  
+🔗 **[Pomodoro Timer - Acesse aqui](https://giordanamartins.github.io/pomodoro-timer/)**
+
+---
+
 Feito com 💻 e ☕ por **Giordana K. Martins**
