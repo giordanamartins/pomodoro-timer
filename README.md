@@ -1,6 +1,6 @@
 # 🕒 Pomodoro Timer
 
-Um cronômetro simples e funcional feito com **JavaScript**, HTML e CSS. A finalizade é auxiliar na produtividade utilizando a **técnica pomodoro**, com ciclos de foco e descanso. A aplicação foi desenvolvida em JavaScript, com manipulação de DOM, controle de tempo com 'setInterval' e lógica de estados para sessões e descanso.
+Desenvolvido com **JavaScript**, **HTML** e **CSS**, este cronômetro tem como objetivo ajudar na gestão do tempo utilizando a **técnica Pomodoro**. Ele alterna ciclos de foco e descanso para melhorar a produtividade. A aplicação utiliza manipulação de **DOM**, controle de tempo com **'setInterval'** e lógica de estados para gerenciar as sessões de trabalho e descanso.
 
 ---
 
