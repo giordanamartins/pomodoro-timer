@@ -1,0 +1,123 @@
+html {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.30px;
+    min-height: 100vh;
+    color: #d8e9ef;
+    background-image: linear-gradient(-20deg, #0c554f 0%, #061958 100%);
+    background-size: cover;
+}
+
+h1 {
+    margin: 0 auto 10px auto;
+    font-size: 215%;
+    color: #d8e9ef;
+}
+
+p {
+    margin: 0;
+}
+
+.app-message {
+    height: 20px;
+    margin: 10px auto 20px auto;
+    letter-spacing: 1px;
+}
+
+.app-body {
+    width: 250px;
+    height: 420px;
+    margin: 40px auto;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.app-circle {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.circle-shape {
+    pointer-events: none;
+}
+
+.semi-circle {
+    position: absolute;
+    width: 100px;
+    height: 200px;
+    box-sizing: border-box;
+    border: solid 7px;
+}
+
+.left-side {
+    top: 0;
+    left: 0;
+    transform-origin: right center;
+    transform: rotate(0deg);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+    z-index: 1;
+}
+
+.right-side {
+    top: 0;
+    left: 100px;
+    transform-origin: left center;
+    transform: rotate(0deg);
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+}
+
+.circle {
+    border-color: #07224b;
+}
+
+.circle-mask {
+    border-color: #0c554f;
+}
+
+button:hover{
+    color: #0c554f;
+}
+
+.app-counter{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 250%;
+    position: relative;
+    top: 70px;
+    color: #d8e9ef;
+}
+
+button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 60px;
+    font-size: 110%;
+    letter-spacing: 1px;
+    border: none;
+    background: none;
+    outline: none;
+    color: #d8e9ef;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.buttons {
+    margin-top: 110px;
+}
+
+.disabled-button {
+    opacity: 0.5;
+    pointer-events: none;
+}
