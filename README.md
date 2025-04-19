@@ -63,4 +63,4 @@ Você pode acessar o projeto online através deste link:
 
 ---
 
-Feito com 💻 e ☕ por **Giordana K. Martins**
+Feito com 💻 e ☕ por [@giordanamartins](https://github.com/giordanamartins)
