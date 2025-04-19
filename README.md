@@ -46,7 +46,7 @@ Este projeto é um cronômetro pomodoro com as seguintes funcionalidades:
 | `Start!`      | Inicia o cronômetro de 25 minutos.                                     |
 | `Pause/Resume`| Pausa ou retoma o tempo atual.                                         |
 | `Reset`       | Interrompe o tempo atual e reinicia o contador para 25:00.            |
-| `Resting`     | Inicia o tempo de descanso proporcional aos ciclos concluídos (5min/ciclo). |
+| `Take a rest`     | Inicia o tempo de descanso proporcional aos ciclos concluídos (5min/ciclo). |
 
 ---
 
