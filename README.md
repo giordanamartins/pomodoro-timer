@@ -19,8 +19,6 @@ Essa abordagem ajuda a manter o foco e evita o esgotamento mental.
 
 ## 💻 Sobre o Projeto
 
-Este projeto é um cronômetro pomodoro com as seguintes funcionalidades:
-
 - 🎯 Início do ciclo de foco (25 minutos).
 - ⏸️ Pausar e retomar o cronômetro.
 - 🔄 Resetar o tempo a qualquer momento.
