@@ -3,12 +3,15 @@ const startButton = document.querySelector(".start-button");
 const pauseButton = document.querySelector(".pause-button");
 const resetButton = document.querySelector(".reset-button");
 const restingButton = document.querySelector(".resting-button");
+const timeButton = document.querySelector(".time-button");
 const minutesDiv = document.querySelector(".minutes");
 const secondsDiv = document.querySelector(".seconds");
 const tittle = document.querySelector(".tittle");
 
+
 let myInterval; 
 let totalSeconds;
+let defaultMinutes = 25;
 let sessionCounter = 0;
 let totalSessions = 0;
 let isRunning = false;
@@ -55,9 +58,9 @@ const updateSeconds = () => {
 
 const appTimer = () => {
     if (!isRunning) {
-        totalSeconds = 25 * 60;
+        totalSeconds = defaultMinutes * 60;
 
-        minutesDiv.textContent = "25";
+        minutesDiv.textContent = defaultMinutes.toString();
         secondsDiv.textContent = "00";
 
         myInterval = setInterval(updateSeconds, 1000);
@@ -86,9 +89,9 @@ const pauseTimer = () => {
 
 const resetTimer = () => {
     clearInterval(myInterval);
-    totalSeconds = 25 * 60;
+    totalSeconds = defaultMinutes * 60;
 
-    minutesDiv.textContent = "25";
+    minutesDiv.textContent = defaultMinutes.toString();
     secondsDiv.textContent = "00";
 
     if (isPaused) {
@@ -108,7 +111,7 @@ const restingTimer = () => {
     if (sessionCounter > 0){
         isResting = true;
 
-        minutesDiv.textContent = restingTime;
+        minutesDiv.textContent = restingTime.toString();
         secondsDiv.textContent = "00";
         
         resetButton.classList.add("disabled-button");
@@ -123,9 +126,26 @@ const restingTimer = () => {
     }
 }
 
+const setTime = () => {
+    const inputValue = prompt("How many minutes should the session last?");
+    const intInput = parseInt(inputValue);
+
+    if (!isNaN(inputValue) && inputValue > 0) {
+        defaultMinutes = intInput;
+        minutesDiv.textContent = defaultMinutes.toString();
+        secondsDiv.textContent = "00";
+        alert(`Time set to ${defaultMinutes} minutes!`);
+    } 
+    else {
+        alert("Please insert a valid number.");
+        setTime();
+    }
+}
+
 startButton.addEventListener("click", appTimer);
 pauseButton.addEventListener("click", pauseTimer);
 resetButton.addEventListener("click", resetTimer);
 restingButton.addEventListener("click", restingTimer);
+timeButton.addEventListener("click", setTime);
 
 // personal project, made by @giordanamartins :)
