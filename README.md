@@ -23,6 +23,7 @@ Essa abordagem ajuda a manter o foco e evita o esgotamento mental.
 - ⏸️ Pausar e retomar o cronômetro.
 - 🔄 Resetar o tempo a qualquer momento.
 - 😌 Timer de descanso proporcional ao número de sessões completadas. A cada 4 ciclos o tempo de descanso é de 30 minutos.
+- ⏲️ Permite ao usuário ajustar a duração do ciclo de foco, personalizando os minutos conforme sua preferência.
 - 🔔 Alerta sonoro ao término de um ciclo.
 - 🧠 Lógica de estados: controle de sessões, pausas e descanso.
 - 📱 Interface responsiva e estilizada com CSS
@@ -45,6 +46,7 @@ Essa abordagem ajuda a manter o foco e evita o esgotamento mental.
 | `Pause/Resume`| Pausa ou retoma o tempo atual.                                         |
 | `Reset`       | Interrompe o tempo atual e reinicia o contador para 25:00.            |
 | `Take a rest`     | Inicia o tempo de descanso proporcional aos ciclos concluídos (5min/ciclo). |
+| `Set time`     | Altera o tempo da sessão para a quantidade de minutos desejada. |
 
 ---
 
